@@ -4,10 +4,7 @@
     {
         static void Main(string[] args)
         {
-            string myName;
-            myName = "Vladimir";
-            Console.WriteLine(myName);
-            Console.ReadKey();
+            Console.WriteLine("Привет,\n мир!");
         }
     }
 }
