@@ -4,10 +4,8 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Введите строку");
-            string str = Console.ReadLine();
-            Console.WriteLine(str);
-            Console.ReadKey();
+            double result = 5.0 / 2.0;
+            Console.WriteLine("5 / 2 = {0}", result);
         }
 	}
 }
