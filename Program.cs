@@ -4,8 +4,10 @@
     {
         static void Main(string[] args)
         {
+            string name = "Vladimir";
             int age = 5;
-            Console.WriteLine($"Мой возраст {age}");
+            string favcolor = "green";
+            Console.WriteLine("{0}\n {1}\n {2}", name, age, favcolor);
         }
 	}
 }
