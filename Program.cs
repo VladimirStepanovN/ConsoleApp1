@@ -4,7 +4,8 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("\tПривет,\n мир!");
+            int age = 5;
+            Console.WriteLine($"Мой возраст {age}");
         }
 	}
 }
