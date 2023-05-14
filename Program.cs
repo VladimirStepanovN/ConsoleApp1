@@ -4,9 +4,8 @@
     {
         static void Main(string[] args)
         {
-            double result = 10 % 3;
-            Console.WriteLine(result);
-            Console.ReadKey();
+            byte age = 255;
+            Console.WriteLine(++age);
         }
 	}
 }
