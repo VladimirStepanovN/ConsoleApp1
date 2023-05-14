@@ -4,15 +4,7 @@
     {
         static void Main(string[] args)
         {
-			Semaphore MySemaphore;
-			MySemaphore = Semaphore.Green;
-			Console.WriteLine(MySemaphore);
-		}
-	}
-	enum Semaphore
-	{
-		Red = 100,
-		Yellow = 200,
-		Green = 300
+            Console.WriteLine("\tПривет,\n мир!");
+        }
 	}
 }
