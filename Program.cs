@@ -4,10 +4,9 @@
     {
         static void Main(string[] args)
         {
-            int b = 10;
-            int k = -5;
-            b -= k;
-            Console.WriteLine(b);
+            double result = 10 % 3;
+            Console.WriteLine(result);
+            Console.ReadKey();
         }
 	}
 }
